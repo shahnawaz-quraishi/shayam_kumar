@@ -397,7 +397,7 @@ nav{
   }
   .home-service-item {
     width: 48%;
-    background-color: #fff3e0;
+    background-color: white;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -544,7 +544,7 @@ nav{
     align-items: center;
     justify-content: center;
     gap: 50px;
-    background-color: #fff3e0;
+    background-color: white;
     padding: 20px 40px;
     /* height: 200px; */
     border-radius: 12px;
