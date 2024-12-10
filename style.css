@@ -545,8 +545,8 @@ nav{
     justify-content: center;
     gap: 50px;
     background-color: #fff3e0;
-    padding: 0 40px;
-    height: 200px;
+    padding: 20px 40px;
+    /* height: 200px; */
     border-radius: 12px;
     /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -856,6 +856,7 @@ footer {
   width: 100%;
   height: 450px;
   border: none;
+ 
 
 }
 
@@ -876,6 +877,25 @@ footer {
 }
 .video-link:hover {
   background-color: #365899;
+}
+
+.hindi-text{
+  padding: 20px 150px;
+  color: white;
+}
+
+@media(max-width:768px){
+  .hindi-text{
+    padding: 20px 0px;
+    color: white;
+  }
+
+  video {
+    width: 100%;
+    border: none;
+    /* border: 10px solid blue; */
+  
+  }
 }
 
 
